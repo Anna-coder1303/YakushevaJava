@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Task2 {
+
+    /*Написать программу, которая принимает на вход два целых числа (a и b)
+    и совершает с ними следующие действия:
+    совершает с этими числами операции
+    сложения, вычитания, деления и умножения и результат выводит в консоль.
+*/
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите целое число а: ");
+        int a = in.nextInt();
+        System.out.print("Введите целое число b: ");
+        int b = in.nextInt();
+        in.close();
+        int c=a+b;
+        int d=a-b;
+        double e=(double) a/b;
+        int f=a*b;
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+
+    }
+}
