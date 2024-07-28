@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Task1 {
+
+/*Написать программу, которая принимает на вход два целых числа (a и b)
+и совершает с ними следующие действия:
+- сравнивает эти два числа и возвращает результат сравнения путем вывода в консоль
+одного из вариантов: "a > b", "a < b" или "a = b"
+*/
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите целое число а: ");
+        int a = in.nextInt();
+        System.out.print("Введите целое число b: ");
+        int b = in.nextInt();
+        in.close();
+        if (a > b) {
+            System.out.print("a>b");
+        }
+        if (a < b) {
+            System.out.print("a<b");
+        }
+        if (a == b) {
+            System.out.print("a=b");
+        }
+    }
+}
+
+
